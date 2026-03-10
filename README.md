@@ -14,11 +14,11 @@ Tools: Jupyter Notebook
 
 
 Methodology:
-Data Preprocessing: Handled missing values, encoded categorical variables, and performed feature scaling using StandardScaler.
+Data Preprocessing- Handled missing values, encoded categorical variables, and performed feature scaling using StandardScaler.
 
-Exploratory Data Analysis (EDA): Visualized correlations and distributions to understand which factors (like education level or age) most heavily influenced income.
+Exploratory Data Analysis (EDA)- Visualized correlations and distributions to understand which factors (like education level or age) most heavily influenced income.
 
-Model Selection: Compared several classification algorithms:K-Nearest Neighbors (KNN): Tuned for the optimal $k$ value.Naive Bayes: Evaluated as a baseline probabilistic model.
+Model Selection- Compared several classification algorithms:K-Nearest Neighbors (KNN): Tuned for the optimal $k$ value.Naive Bayes: Evaluated as a baseline probabilistic model.
 
-Evaluation: Used Confusion Matrices, Precision, Recall, and F1-score to measure performance.
+Evaluation- Used Confusion Matrices, Precision, Recall, and F1-score to measure performance.
 
