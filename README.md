@@ -10,6 +10,9 @@ Machine Learning: scikit-learn (KNN, Naive Bayes)
 
 Tools: Jupyter Notebook
 
+
+
+
 Methodology:
 Data Preprocessing: Handled missing values, encoded categorical variables, and performed feature scaling using StandardScaler.
 
