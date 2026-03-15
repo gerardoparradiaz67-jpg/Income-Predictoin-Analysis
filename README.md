@@ -2,6 +2,8 @@ The **Adult Income dataset** is a collection of 1994 U.S. Census records used to
 
 The dataset was sourced from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/2/adult).
 
+Dataset Size: 32,561 observations | 14 demographic features
+
 ### Research Question
 > To what extent can **K-Nearest Neighbors (KNN)** and **Naive Bayes** classifiers accurately predict an individual’s income level (above or below $50,000) using 1994 Census data, and how do their underlying mathematical assumptions handle high-dimensional, skewed feature sets?
 
