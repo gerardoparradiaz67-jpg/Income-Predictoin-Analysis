@@ -1,24 +1,24 @@
-# Income-Predictoin-Analysis
-An end-to-end classification project using Python and Scikit-Learn. This project aims to predict whether an individual's income exceeds a certain threshold based on various demographic factors. Using a dataset containing features like age, education, and occupation, I performed exploratory data analysis (EDA) and trained multiple machine learning models to identify the most accurate predictor.
+# Census Income Prediction: A Comparative ML Study
 
-Tech Stack: 
-Language: Python 3.x
+## Executive Summary
+This project evaluates the effectiveness of three different classification algorithms—**KNN, Bernoulli Naive Bayes, and Gaussian Naive Bayes**—in predicting whether an individual's income exceeds $50K/year based on census data.
 
-Libraries: pandas, numpy, matplotlib, seaborn
+## Key Results
+* **Top Performance:** KNN and BernoulliNB achieved an accuracy of **81.3%** on unseen test data.
+* **Key Insight:** GaussianNB performed poorly (45.02%) due to violations of the normality assumption in the dataset features.
 
-Machine Learning: scikit-learn (KNN, Naive Bayes)
+## Model Evaluation
+### Confusion Matrix (BernoulliNB)
+![Confusion Matrix](confusion_matrix.png)
+*The confusion matrix demonstrates the model's ability to balance True Positives and True Negatives, crucial for identifying high-income earners in a skewed dataset.*
 
-Tools: Jupyter Notebook
+### ROC/AUC Curve
+![ROC Curve](roc_curve.png)
+*By plotting the True Positive Rate against the False Positive Rate, we confirmed a robust AUC score, validating the model's discriminative power.*
 
+## Technical Methodology
+* **Preprocessing:** Feature scaling via `StandardScaler` and handling categorical variables.
+* **Math Logic:** Leveraged BernoulliNB to better handle the binary-heavy feature space of the Census dataset.
 
-
-
-Methodology:
-Data Preprocessing- Handled missing values, encoded categorical variables, and performed feature scaling using StandardScaler.
-
-Exploratory Data Analysis (EDA)- Visualized correlations and distributions to understand which factors (like education level or age) most heavily influenced income.
-
-Model Selection- Compared several classification algorithms:K-Nearest Neighbors (KNN): Tuned for the optimal $k$ value.Naive Bayes: Evaluated as a baseline probabilistic model.
-
-Evaluation- Used Confusion Matrices, Precision, Recall, and F1-score to measure performance.
-
+## Future Work
+To further improve predictive power, I plan to implement **Ensemble Methods** like Random Forest, which are natively robust against the skewed distributions found in this data.
