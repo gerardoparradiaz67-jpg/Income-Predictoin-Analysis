@@ -17,7 +17,7 @@ This project evaluates the effectiveness of three different classification algor
 *By plotting the True Positive Rate against the False Positive Rate, we confirmed a robust AUC score, validating the model's discriminative power.*
 
 ## Technical Methodology
-* **Preprocessing:** Feature scaling via `StandardScaler` and handling categorical variables.
+* **Preprocessing:** Feature scaling via StandardScaler and handling categorical variables.
 * **Math Logic:** Leveraged BernoulliNB to better handle the binary-heavy feature space of the Census dataset.
 
 ## Future Work
